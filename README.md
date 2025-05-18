@@ -1,4 +1,4 @@
-"# wirless_esp32_project" 
+"# wirless_esp32_project" created using ArduinoIDE
 This project successfully demonstrates a wireless sensor alert system using four ESP32 devices communicating via the ESP-NOW protocol. Three of the ESP32s are individually connected to different sensor modules (Ultrasonic, IR, and LDR), each monitoring a specific environmental condition. When a sensor detects an event—such as motion, light intensity changes, or an object at a certain distance—it transmits a signal wirelessly to a central ESP32 unit.
 
 The central ESP32 acts as a receiver and responds to each sensor's signal by lighting up a dedicated LED, offering immediate visual feedback. This modular and wireless setup minimizes wiring complexity and proves effective for real-time, multi-node sensor networks.
